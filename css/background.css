@@ -1,0 +1,40 @@
+/* Homepage Template */
+.front-header {
+  background: url('../img/home.jpg') repeat-y center bottom;
+  max-width: 100%;
+  min-height: 570px;
+  position: relative;
+  overflow-y: hidden;
+}
+.front-header:before {
+  background-color: #111111;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: .7;
+}
+/* Features */
+.section-features {
+  background:  url('../img/category-bg.jpg') repeat-y center center ;
+
+} 
+/* Counter */
+.section-counter {
+  background: url('../img/counter.jpg') repeat-y center top;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+.section-counter:before{
+  background-color: #111111;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: .7;
+}
